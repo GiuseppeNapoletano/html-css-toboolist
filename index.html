@@ -11,40 +11,45 @@
         <img id="logo" src="./img/img/Toboolist-logo.jpg">
     </header>
     <main>
-        <section class="container">
+        <div class="container">
+        <section>
             <button class="add-task">Add Task</button>
             <span><button class="add-section">Add Section</button></span>
         </section>
-        <section class="container">
+        </div>
+        <div class="container">
+        <section class="list">
             <ul>
                 <li>
-                    &blacktriangledown;New Task
+                    <h3>&blacktriangledown;New Task</h3>
                     <ul>
                         <li class="window">
-                        <span class="tick">&check;</span>Quarterly Newsletter
+                        <span class="circle tick">&check;</span>Quarterly Newsletter
+                        <span class="tag editorial">Editorial</span>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    &blacktriangledown;Today
+                    <h3>&blacktriangledown;Today</h3>
                     <ul>
-                        <li class="window"><span class="tick">&check;</span>Recruiting blog post</li>
-                        <li class="window"><span class="tick">&check;</span>Mobile app launch</li>
-                        <li class="window"><span class="cross">&cross;</span>Interview John H.</li>
-                        <li class="window"><span class="tick">&check;</span>Summit update to mobile storefronts</li>
+                        <li class="window"><span class="circle tick">&check;</span>Recruiting blog post<span class="tag editorial">Editorial</span></li>
+                        <li class="window"><span class="circle tick">&check;</span>Mobile app launch<span class="tag q1">Q1 Goals</span></li>
+                        <li class="window"><span class="circle cross">&cross;</span>Interview John H.<span class="tag recruiting">Recruiting</span></li>
+                        <li class="window"><span class="circle tick">&check;</span>Summit update to mobile storefronts<span class="tag mobile">Mobile</span></li>
                     </ul>
                 </li>
                 <li>
-                    &blacktriangledown;Upcoming
+                    <h3>&blacktriangledown;Upcoming</h3>
                     <ul>
-                        <li class="window"><span class="cross">&cross;</span>Schedule meeting with Alex</li>
-                        <li class="window"><span class="tick">&check;</span>Homepage refresh</li>
-                        <li class="window"><span class="tick">&check;</span>Onboard new Sales team members</li>
-                        <li class="window"><span class="tick">&check;</span>Review editorial calendar</li>
+                        <li class="window"><span class="circle cross">&cross;</span>Schedule meeting with Alex</li>
+                        <li class="window"><span class="circle tick">&check;</span>Homepage refresh<span class="tag website">Website</span></li>
+                        <li class="window"><span class="circle tick">&check;</span>Onboard new Sales team members<span class="tag sales">Sales</span></li>
+                        <li class="window"><span class="circle tick">&check;</span>Review editorial calendar<span class="tag editorial">Editorial</span></li>
                     </ul>
                 </li>
             </ul>
         </section>
+        </div>
     </main>
 </body>
 </html>

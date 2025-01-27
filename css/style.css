@@ -53,13 +53,33 @@ main{
 
 ul{
     list-style: none;
-    font-weight: 550;
-    font-size: large;
+}
+
+h3{
+    font-size: 18px;
+}
+
+.list{
+    margin-left: 16px;
 }
 
 .window{
     font-size: 14px;
     font-weight: 300;
+}
+
+li{
+    padding: 10px 0px;
+}
+
+.circle{
+    height: 15px;
+    width: 15px;
+    display: inline-block;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 50%;
+    border: 1px solid;
 }
 
 .tick{
@@ -68,4 +88,37 @@ ul{
 
 .cross{
     color: red;
+}
+
+.tag{
+    display: inline-block;
+    color: white;
+    padding: 5px 8px;
+    margin-left: 4px;
+    border-radius: 30px;
+    font-size: smaller;
+}
+
+.editorial{
+    background-color: aqua;
+}
+
+.q1{
+    background-color: violet;
+}
+
+.recruiting{
+    background-color: green;
+}
+
+.mobile{
+    background-color: orangered;
+}
+
+.website{
+    background-color: palevioletred;
+}
+
+.sales{
+    background-color: yellowgreen;
 }
