@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+header{
+    width: 100%;
+    background-color: white;
+}
+
+#logo{
+    height: 50px;
+    margin-left: 20px;
+}
+
+main{
+    margin-top: 50px;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 75%;
+    margin: auto;
+    margin-top: 2px;
+    padding-left: 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.add-task{
+    margin: 10px;
+    padding: 7px;
+    background-color: #4BB2DC;
+    border-radius: 5px;
+    font-size: 12px;
+    border-width: 1px;
+}
+
+.add-section{
+    margin: 10px;
+    margin-left: -10px;
+    padding: 7px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 12px;
+    border-width: 1px;
+}
+
+ul{
+    list-style: none;
+    font-weight: 550;
+    font-size: large;
+}
+
+.window{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.tick{
+    color: green;
+}
+
+.cross{
+    color: red;
+}
